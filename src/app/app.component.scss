@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    background-color: aqua;
+    color: white;
+    top: 0%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+.main {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 20%;
+    padding: 10px;
+    h1 {
+        margin: 10px;
+    }
+    .btn {
+        padding: 10px;
+        border-radius: 20px;
+        margin: 15px;
+        border-style: outset;
+        font-size: xx-large;
+        width: 50px;
+    }
+}
