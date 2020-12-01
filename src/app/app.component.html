@@ -3,8 +3,9 @@
 </div>
 
 <div class="main">
-    <h1>0</h1>
+    <h1>{{counter}}</h1>
 
-    <button class="btn">+</button>
-    <button class="btn">-</button>
+    <button class="btn" (click)="increase()">+</button>
+    <button class="btn" (click)="reset()">Reset</button>
+    <button class="btn" (click)="decrease()">-</button>
 </div>
